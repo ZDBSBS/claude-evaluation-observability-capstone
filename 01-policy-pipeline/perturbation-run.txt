@@ -1,0 +1,10 @@
+2026-11-18 11:07:02,374 INFO HTTP Request: POST https://claude.vocareum.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-18 11:07:02,386 INFO validation_failed
+{
+  "category": "missing_source",
+  "detected_pattern": "endorsements_absent",
+  "field": "endorsements",
+  "kind": "escalation",
+  "policy_id": "POL-2025-001-PERTURBED",
+  "reason": "Field 'endorsements' returned null \u2014 the source document does not contain this information. Retry is futile; escalate to human review."
+}

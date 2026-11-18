@@ -1,0 +1,9 @@
+Python version:
+Python 3.13.0
+
+Operating system:
+Linux 17964121da57900f51b1edfe3478b012f21a071a-7fd66db8ff-fgzq5 6.6.97+ #1 SMP Fri Aug 22 11:53:37 UTC 2025 x86_64 GNU/Linux
+
+Environment setup:
+Separate .venv created for each of the three final solution projects.
+Each project installed with: pip install -e ".[dev]"
